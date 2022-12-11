@@ -2,8 +2,7 @@ html {
     font-size: 62.5%;
 }
 
-html,
-body {
+html {
     overflow-x: hidden;
 }
 
@@ -16,7 +15,6 @@ body {
 .container {
     background-color: white;
     margin: auto;
-    border: #000000 1px solid;
 }
 
 .width {
@@ -24,7 +22,7 @@ body {
     max-width: 1200px;
     margin: auto;
     background-color: white;
-    border: #cf1e1e 1px solid;
+    /* border: #cf1e1e 1px solid; */
 }
 
 .headet-item {
@@ -386,9 +384,9 @@ body {
 
 .header-14 {
 
-    background: #EFEFEF;
     display: flex;
     padding-top: 5%;
+    padding-bottom:2% ;
 
 }
 
@@ -573,6 +571,9 @@ body {
 .header-17-blok-right {
     padding-right: 2%;
 
+}
+.header-17-blok-down{
+    cursor: pointer;
 }
 
 @media (max-width:834px) {
@@ -793,6 +794,228 @@ body {
     }
 }
 
+@media (max-width:634px) {
+    .width {
+        max-width: 597px;
+    }
+
+    .container {
+        width: 634px;
+        height: 100%;
+    }
+
+    .headet-item img {
+        margin-top: 21px;
+        width: 65px;
+    }
+
+    .header-item-2 img {
+        font-size: 12px;
+        width: 12px;
+    }
+
+    .header-item-2 span {
+        font-size: 11px;
+        width: 11px;
+    }
+
+    .header-3 {
+        max-width: 597px;
+        height: 156px;
+    }
+    .header-3-left{
+        width: 40%;
+    }
+    .header-3-left-first {
+        font-size: 40px;
+    }
+    .header-3-right{
+        width: 40%;
+    }
+    .header-3-left-second {
+        font-size: 11px;
+    }
+
+    .header-3-right img {
+        width: 156.07px;
+    }
+
+    .header-4-blok {
+        width: 270.11px;
+        height: 105.83px;
+    }
+
+    .header-4-item-1 {
+        font-size: 12px;
+    }
+
+    .header-4-item-2 {
+        font-size: 11px;
+    }
+
+    .header-5 {
+        width: 345px;
+        height: 83px;
+        font-size: 30px;
+    }
+
+    .header-6-left {
+        width: 50%;
+        font-size: 11px;
+    }
+
+    .header-6-right {
+        width: 35%;
+    }
+
+    .header-6-right img {
+        width: 191px;
+    }
+
+    .header-7-left img {
+        width: 124px;
+    }
+
+    .header-7-right-blok-1 {
+        width: 76px;
+        height: 29px;
+    }
+
+    .header-7-right-blok-1 p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .header-7-right-blok-1 p:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .header-8 {
+        font-size: 30px;
+    }
+
+    .header-9-blok-1 p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .header-9-blok-1 p:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .header-10 {
+        font-size: 30px;
+    }
+
+    .header-11 ul {
+        font-size: 12px;
+    }
+
+    .header-12 {
+        font-size: 30px;
+    }
+
+    .header-13-blok {
+        width: 30%;
+        height: 189px;
+    }
+
+    .header-13-item-1 img {
+        width: 100%;
+        height: 92px;
+    }
+
+    .header-13-item-2 {
+        font-size: 17px;
+    }
+
+    .header-13-item-3 {
+        padding-left: 3%;
+        font-size: 14px;
+    }
+
+    .header-14 p {
+        font-size: 30px;
+    }
+
+    .header-15-blok-main {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .header-15-block-left img {
+        width: 80px;
+    }
+
+    .header-15-blok-1 p {
+        font-size: 12px;
+    }
+
+    .header-15-block-left {
+        width: 110px;
+    }
+
+    .header-15-blok-2 {
+        display: flex;
+        align-items: center;
+        gap: 20%;
+    }
+
+    .header-15-block-right p {
+        font-size: 15px;
+    }
+
+    .header-15-block-right img {
+        font-size: 17px;
+    }
+
+    .header-16 {
+        background: #9DC9C8;
+    }
+
+    .header-16-blok-1 {
+        font-size: 30px;
+    }
+
+    .header-16-blok-2 {
+        font-size: 12px;
+    }
+
+    .header-16-blok-3 {
+        font-size: 42px;
+    }
+
+    .header-16-blok-4-first {
+        font-size: 12px;
+    }
+
+    .header-16-blok-4-second {
+        font-size: 12px;
+    }
+
+    .header-17 {
+        background-color: #000000;
+        height: 270px;
+    }
+
+    .header-17-blok-up img {
+        width: 67px;
+    }
+
+    .header-17-blok-down img {
+        width: 19.11px;
+    }
+
+    .header-17-blok-right p {
+        font-size: 14px;
+    }
+
+    .header-17-blok-right img {
+        width: 15px;
+    }
+
+    .header-17-data {
+        font-size: 10px;
+    }
+}
 
 @media (max-width:375px) {
     .width {
@@ -966,7 +1189,7 @@ body {
     }
 
     .header-15-blok-main {
-        width: 308px;
+        /* width: 260px; */
     }
 
     .header-15-blok-1 p {
